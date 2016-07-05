@@ -1137,8 +1137,8 @@
 	h2:before {
 		display: block;
 		content: " ";
-		margin-top: -285px;
-		height: 285px;
+		margin-top: -2em;
+		height: 2em;
 		visibility: hidden;
 	}
 
