@@ -1,7 +1,7 @@
 function FormSubmit()
    {
-	  document.getElementbyId("contactForm").action = "https://formspree.io/zechsch@umich.edu";
+	  document.getElementById("contactForm").action = "https://formspree.io/zechsch@umich.edu";
 	  document.referralForm.submit();
-	  document.getElementbyId("contactForm").reset();
+	  document.getElementById("contactForm").reset();
 	  return true;
   };
