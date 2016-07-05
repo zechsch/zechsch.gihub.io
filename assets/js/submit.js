@@ -4,7 +4,7 @@ function FormSubmit()
        header = document.getElementById("contactHeader");
        paragraph = document.getElementById("contactP");
 
-       //form.action = "https://formspree.io/zechsch@umich.edu";
+       form.action = "https://formspree.io/zechsch@umich.edu";
        form.submit();
 
        header.innerHTML = "Thanks!"
