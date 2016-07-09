@@ -10,5 +10,6 @@ function FormSubmit()
        header.innerHTML = "Thanks!"
        paragraph.innerHTML = "I'll get back to you shortly."
        form.parentNode.removeChild(form);
+       document.getElementById("contact").scrollIntoView();
 	  return false;
   };
