@@ -4,7 +4,10 @@ function FormSubmit()
        header = document.getElementById("contactHeader");
        paragraph = document.getElementById("contactP");
 
-       form.action = "https://formspree.io/zechsch@umich.edu";
+       //form.action = "https://formspree.io/zechsch@umich.edu";
+       form.action = "mailto:zechsch@umich.edu";
+       form.method = "POST";
+       form.enctype = "multipart/form-data";
        form.submit();
 
        header.innerHTML = "Thanks!"
